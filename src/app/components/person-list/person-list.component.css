@@ -1,0 +1,140 @@
+:root {
+    --primary: #1976d2;
+    --primary-dark: #115293;
+    --accent: #ff9800;
+    --accent-light: #ffe0b2;
+    --bg: #f9fafb;
+    --card-bg: #fff;
+    --border: #e0e0e0;
+    --text: #222;
+    --muted: #888;
+  }
+  
+  .container {
+    background: var(--bg);
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(25, 118, 210, 0.05);
+    max-width: 900px;
+    margin: 2rem auto;
+  }
+  
+  h2 {
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .btn-primary {
+    background: var(--primary);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.65rem 1.5rem;
+    border-radius: 8px;
+    transition: background 0.2s;
+    box-shadow: 0 2px 6px rgba(25, 118, 210, 0.08);
+  }
+  .btn-primary:hover, .btn-primary:focus {
+    background: var(--primary-dark);
+    color: #080101;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .btn-outline-primary {
+    border: 1.5px solid var(--primary);
+    color: var(--primary);
+    background: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+  }
+  .btn-outline-primary:hover, .btn-outline-primary:focus {
+    background: var(--primary);
+    color: #fff;
+  }
+  
+  .btn-outline-danger {
+    border: 1.5px solid #e53935;
+    color: #e53935;
+    background: #fff;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+  }
+  .btn-outline-danger:hover, .btn-outline-danger:focus {
+    background: #e53935;
+    color: #fff;
+  }
+  
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+  
+  .table {
+    margin-bottom: 0;
+    background: transparent;
+  }
+  .table thead {
+    background: var(--bg);
+  }
+  .table th, .table td {
+    border: none;
+    padding: 1rem 0.75rem;
+    vertical-align: middle;
+    color: var(--text);
+    font-size: 1rem;
+  }
+  .table th {
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: 0.2px;
+  }
+  .table tbody tr {
+    transition: background 0.15s;
+  }
+  .table tbody tr:hover {
+    background: var(--accent-light);
+  }
+  
+  .badge {
+    padding: 0.4em 0.85em;
+    border-radius: 1rem;
+    font-weight: 800;
+    font-size: 0.95em;
+    color: gray;
+  }
+  
+  
+  
+  .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  .table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .text-muted {
+    color: var(--muted) !important;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 1rem 0.5rem;
+    }
+    .card, .table th, .table td {
+      font-size: 0.95rem;
+    }
+    .btn, .btn-primary {
+      padding: 0.5rem 1rem;
+    }
+  }
+  

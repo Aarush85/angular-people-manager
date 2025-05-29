@@ -1,0 +1,16 @@
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.text-danger {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.btn {
+  margin-right: 0.5rem;
+}
+
+.container {
+  max-width: 800px;
+} 
