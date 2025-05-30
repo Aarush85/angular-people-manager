@@ -2,6 +2,12 @@
 
 A single-page web application built with Angular 8 that allows users to list, add, edit, and delete people records.
 
+## 🎥 Walkthrough Videos
+- [Complete Project Demo (15 mins)](https://youtu.be/vrPtOjTo9MI) - Full walkthrough including:
+  - Frontend and backend folder structure overview
+  - API testing and validation
+  - Angular application demo with CRUD operations
+
 ## 🚀 Features
 
 - List all people
