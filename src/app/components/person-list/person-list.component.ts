@@ -45,7 +45,7 @@ export class PersonListComponent implements OnInit {
    * Navigates to the form page to add a new person
    */
   addPerson() {
-    this.router.navigate(['/person/new']);
+    this.router.navigate(['/people/add']);
   }
 
   /**
@@ -53,6 +53,6 @@ export class PersonListComponent implements OnInit {
    * @param id - The ID of the person to edit
    */
   editPerson(id: string) {
-    this.router.navigate(['/person/edit', id]);
+    this.router.navigate(['/people/edit', id]);
   }
 } 
